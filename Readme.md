@@ -1,7 +1,7 @@
 # Azurermext
 
 
-### Motivation?
+### Motivation
 During my everyday work my team and I had to execute custom SQL query on MySql database located on Azure.
 Because the database required whitelisting of particular IP address to access it, we had to create firewall rule.
 After the script was executed, whitelisted IP should have been removed from the list.
