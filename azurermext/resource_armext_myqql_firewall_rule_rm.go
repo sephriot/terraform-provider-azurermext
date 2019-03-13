@@ -31,6 +31,7 @@ func resourceArmMySqlFirewallRuleRm() *schema.Resource {
 	}
 }
 
+// Because FirewallRule can be created during current terraform apply Update method will always be executed
 func resourceArmMySqlFirewallRuleRmRead(d *schema.ResourceData, m interface{}) error {
 	return nil
 }
